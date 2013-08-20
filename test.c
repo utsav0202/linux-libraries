@@ -1,14 +1,13 @@
 #include <stdio.h>
 #include "lib.h"
 
-int main(int argc, char** argv)
+int main()
 {
-	int a;
-	int b;
+	int a, b;
 
-	printf("Enter a: ");
+	printf("enter a: ");
 	scanf("%d", &a);
-	printf("Enter b: ");
+	printf("enter b: ");
 	scanf("%d", &b);
 	printf("a + b : %d\n", lib_add(a, b));
 	return 0;
